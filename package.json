@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "nodemon server.js",
-    "start": "server.js",
+    "start": "nodemon server.js",
     "git-update": "git add . && git commit -n \"update\" && git push"
   },
   "repository": {
