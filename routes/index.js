@@ -1,6 +1,7 @@
 const routes = require('express').Router();
-const prove = require('../controllers/');
+const userController = require('../controllers/user');
 
-routes.get('/', prove.displayprove);
+routes.get('/', userController.getUser);
+routes.get('/username', userController.getUsername);
 
 module.exports = routes;
